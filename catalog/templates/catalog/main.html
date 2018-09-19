@@ -9,7 +9,7 @@
       <h1><a href="/">ti pidr</a></h1>
     </div>
 
-    <div> <!-- Меню -->
+    <div>
       <ul>
         <h2>
           <li><a href="">Главная</a></li>
@@ -18,16 +18,6 @@
         </h2>
       </ul>
     </div>
-
-{% for Product in products %}
-    <div> <!-- Поле с товарами -->
-      <h1><a href="">{{ Product.title }} </a> </h1>
-      <p> {{ Product.text|linebreaksbr }} <p>
-      <h2> {{ Product.type }} </h2>
-      <h3> {{ Product.price }} р. </h3>
-
-    </div>
-{% endfor %}
 
   </body>
 
